@@ -101,6 +101,7 @@ html {
   border: 1px solid var(--light-gray);
   border-radius: var(--r-md);
   color: var(--black);
+  cursor: pointer;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
@@ -134,7 +135,7 @@ html {
   width: 16px;
 }
 
-.quizzes-main p {
+.quizzes-main p, .quizzes-main span {
   color: var(--dark-gray);
   font-size: var(--f-12);
   font-weight: 500;
