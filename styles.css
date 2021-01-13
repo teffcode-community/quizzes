@@ -134,7 +134,6 @@ html {
 }
 
 .quizzes-main div {
-  background-color: var(--javascript);
   border-radius: var(--r-full);
   height: 16px;
   position: absolute;
