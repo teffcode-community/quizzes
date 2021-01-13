@@ -101,7 +101,7 @@ html {
 .quizzes-main {
   display: grid;
   gap: 24px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   padding-top: var(--m-24);
 }
 
@@ -153,6 +153,9 @@ html {
   font-size: var(--f-16);
   font-weight: 500;
   margin: var(--m-8) var(--m-0) var(--m-24) var(--m-0);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 @media (min-width: 1440px) {
