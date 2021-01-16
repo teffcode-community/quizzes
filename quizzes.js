@@ -1,9 +1,6 @@
 import { quizzes } from "./utils.js"
 
 class Quizzes {
-  static JAVASCRIPT = "JavaScript"
-  static CSS = "CSS"
-
   constructor() {
     this.cardsContainer = document.querySelector(".quizzes-main")
     this.card = document.createElement("a")
@@ -12,6 +9,9 @@ class Quizzes {
     this.label = document.createElement("p")
     this.title = document.createElement("h2")
     this.date = document.createElement("span")
+    
+    this.javascript = "JavaScript"
+    this.css = "CSS"
 
     this.createCards()
   }
@@ -29,12 +29,12 @@ class Quizzes {
 
       let color = this.cardContainer.appendChild(this.color.cloneNode(true))
 
-      if (quiz.technology === Quizzes.JAVASCRIPT) {
+      if (quiz.technology === this.javascript) {
         color.classList.remove("css-color")
         color.classList.add("javascript-color")
       }
 
-      if (quiz.technology === Quizzes.CSS) {
+      if (quiz.technology === this.javascript) {
         color.classList.remove("javascript-color")
         color.classList.add("css-color")
       }
