@@ -32,9 +32,7 @@ class Quizzes {
       if (quiz.technology === this.javascript) {
         color.classList.remove("css-color")
         color.classList.add("javascript-color")
-      }
-
-      if (quiz.technology === this.javascript) {
+      } else {
         color.classList.remove("javascript-color")
         color.classList.add("css-color")
       }
