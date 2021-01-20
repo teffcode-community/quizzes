@@ -72,14 +72,14 @@ html {
 
 .quizzes-header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top: var(--m-24);
 }
 
 .quizzes-header img {
-  width: 100px;
-  height: 100px;
+  width: 50%;
 }
 
 .quizzes-header p {
@@ -174,16 +174,25 @@ html {
   .quizzes-container {
     padding: var(--m-0) var(--m-80);
   }
+  .quizzes-header img {
+    width: 80%;
+  }
 }
 
 @media (max-width: 744px) {
   .quizzes-container {
-    padding: var(--m-0) var(--m-80);
+    padding: var(--m-0) var(--m-24);
+  }
+  .quizzes-header img {
+    width: 100%;
   }
 }
 
 @media (max-width: 375px) {
   .quizzes-container {
     padding: var(--m-0) var(--m-24);
+  }
+  .quizzes-header img {
+    width: 100%;
   }
 }
