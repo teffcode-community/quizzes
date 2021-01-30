@@ -132,17 +132,19 @@ html {
   width: 80px;
 }
 
-.quizzes-main div {
-  border-radius: var(--r-full);
-  height: 16px;
-  position: absolute;
-  right: 8px;
-  top: 8px;
-  width: 16px;
+.quizzes-main p {
+  border-radius: var(--r-sm);
+  display: inline;
+  padding: var(--p-2) var(--p-8);
+}
+
+.quizzes-main span {
+  display: block;
+  text-align: right;
 }
 
 .quizzes-main p, .quizzes-main span {
-  color: var(--dark-gray);
+  color: var(--black);
   font-size: var(--f-12);
   font-weight: 500;
   margin: var(--m-0);
