@@ -37,6 +37,7 @@
   --f-14: 1.4rem;
   --f-16: 1.6rem;
   --f-24: 2.4rem;
+  --f-32: 3.2rem;
   /* Radius */
   --r-none: 0; 
   --r-sm: 0.8rem; 
@@ -82,19 +83,14 @@ html {
 
 .quizzes-header img {
    width: 60%;
-   padding: 60px 0px;
-}
-
-.quizzes-header p {
-  font-size: var(--f-14);
-  font-weight: 100;
-  margin: var(--m-0);
+   padding: 60px 0px 40px;
 }
 
 .quizzes-header h1 {
-  font-size: var(--f-24);
-  font-weight: 500;
-  margin: var(--m-8) var(--m-0) var(--m-0);
+  font-size: var(--f-32);
+  font-weight: 700;
+  margin: var(--m-0);
+  padding-bottom: var(--p-16);
 }
 
 .quizzes-header div {
