@@ -67,6 +67,7 @@ html {
 }
 
 .quizzes-container {
+  background-attachment: fixed;
   background-image: url(https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   padding: var(--m-0) var(--m-160);
 }
@@ -80,7 +81,8 @@ html {
 }
 
 .quizzes-header img {
-  width: 80%;
+   width: 60%;
+   padding: 60px 0px;
 }
 
 .quizzes-header p {
