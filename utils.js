@@ -6,7 +6,18 @@ const images = [
   "https://i.ibb.co/GVStXgh/Men.png",
   "https://i.ibb.co/vYCWXvz/Women.png",
   "https://i.ibb.co/d56sY8x/Men2.png",
-  "https://i.ibb.co/0nTBTKj/Women2.png"
+  "https://i.ibb.co/0nTBTKj/Women2.png",
+  "https://i.ibb.co/NxK4140/Men3.png",
+  "https://i.ibb.co/hB7J5yc/Women3.png",
+  "https://i.ibb.co/w0PG3t3/Women4.png",
+  "https://i.ibb.co/Qdyvy9V/Women4-1.png",
+  "https://i.ibb.co/qYxvv9T/Women5.png",
+  "https://i.ibb.co/s53VC9L/Men4.png",
+  "https://i.ibb.co/JFDtLxM/Women6.png",
+  "https://i.ibb.co/7yV4hzK/Phone.png",
+  "https://i.ibb.co/qBpGRKP/Quiz1.png",
+  "https://i.ibb.co/q7Z5Qvc/CSS-1.png",
+  "https://i.ibb.co/hZCnv2S/Untitled-Artwork.png"
 ]
 
 const quizzes = [
