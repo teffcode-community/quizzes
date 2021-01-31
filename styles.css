@@ -112,7 +112,7 @@ html {
   color: var(--black);
   cursor: pointer;
   margin-left: var(--m-40);
-  padding: var(--p-8) var(--p-8) var(--p-8) var(--p-64);
+  padding: var(--p-16) var(--p-16) var(--p-16) var(--p-64);
   position: relative;
   text-decoration: none;
   -webkit-transition: all .2s ease-in-out;
