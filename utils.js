@@ -2,7 +2,7 @@ const JAVASCRIPT = "JavaScript"
 const CSS = "CSS"
 const UI = "UI"
 
-this.images = [
+const images = [
   "https://i.ibb.co/GVStXgh/Men.png",
   "https://i.ibb.co/vYCWXvz/Women.png",
   "https://i.ibb.co/d56sY8x/Men2.png",
