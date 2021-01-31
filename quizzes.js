@@ -1,4 +1,4 @@
-import { quizzes } from "./utils.js"
+import { quizzes, images } from "./utils.js"
 
 class Quizzes {
   constructor() {
@@ -23,10 +23,12 @@ class Quizzes {
 
   createCards() {
     quizzes.forEach(quiz => {
+      const randomImage = Math.floor(Math.random() * images.length);
+
       this.cardContainer = this.cardsContainer.appendChild(this.card.cloneNode(true))
       this.cardContainer.setAttribute("href", quiz.url)
       this.cardContainer.setAttribute("target", "_blank")
-      this.setAttributes(this.cardContainer.appendChild(this.image.cloneNode(true)), {"src": quiz.imageUrl, "alt": quiz.imageAlt})
+      this.setAttributes(this.cardContainer.appendChild(this.image.cloneNode(true)), {"src": images[randomImage], "alt": "Ilustración de una persona haciendo un quíz"})
       this.cardContainer.appendChild(this.label.cloneNode(true)).innerHTML = quiz.technology
       this.cardContainer.appendChild(this.title.cloneNode(true)).innerHTML = quiz.name
       this.cardContainer.appendChild(this.date.cloneNode(true)).innerHTML = quiz.date
