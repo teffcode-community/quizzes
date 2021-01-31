@@ -61,14 +61,6 @@ html {
   font-size: 62.5%;
 }
 
-.css-color {
-  background-color: var(--css);
-}
-
-.javascript-color {
-  background-color: var(--javascript);
-}
-
 .quizzes-container {
   background-attachment: fixed;
   background-image: url(https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
@@ -124,11 +116,11 @@ html {
 }
 
 .quizzes-main img {
-  height: 100px;
+  height: 100%;
   left: -40px;
-  opacity: 20%; /* TODO: Remove this */
   position: absolute;
-  width: 80px;
+  top: 0;
+  width: 100px;
 }
 
 .quizzes-main p {
