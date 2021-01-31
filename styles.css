@@ -158,6 +158,12 @@ html {
   white-space: nowrap;
 }
 
+.quizzes-footer {
+  font-size: var(--f-12);
+  padding: var(--p-32);
+  text-align: center;
+}
+
 @media (min-width: 1440px) {
   .quizzes-container {
     padding: var(--m-0) var(--m-160);
