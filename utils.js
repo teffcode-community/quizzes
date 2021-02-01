@@ -22,6 +22,12 @@ const images = [
 
 const quizzes = [
   {
+    technology: JAVASCRIPT,
+    name: "filter() & call() methods",
+    date: "Feb 1, 2021.",
+    url: "https://gist.github.com/teffcode/105c7a8d0db2055f363695b26a4fdff7"
+  },
+  {
     technology: CSS,
     name: "PostCSS",
     date: "Jan 25, 2021.",
