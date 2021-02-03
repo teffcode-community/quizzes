@@ -17,7 +17,8 @@ const images = [
   "https://i.ibb.co/7yV4hzK/Phone.png",
   "https://i.ibb.co/qBpGRKP/Quiz1.png",
   "https://i.ibb.co/q7Z5Qvc/CSS-1.png",
-  "https://i.ibb.co/hZCnv2S/Untitled-Artwork.png"
+  "https://i.ibb.co/hZCnv2S/Untitled-Artwork.png",
+  "https://i.ibb.co/87gLhc2/Guille.png"
 ]
 
 const quizzes = [
