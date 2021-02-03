@@ -36,9 +36,9 @@ class Quizzes {
       if (quiz.technology === this.javascript) {
         this.cardContainer.getElementsByTagName("p")[0].style.backgroundColor = "#FDFFBC"
       } else if (quiz.technology === this.css) {
-        this.cardContainer.getElementsByTagName("p")[0].style.backgroundColor = "#FFE3DE"
+        this.cardContainer.getElementsByTagName("p")[0].style.backgroundColor = "#FE91CA"
       } else {
-        this.cardContainer.getElementsByTagName("p")[0].style.backgroundColor = "#C6FCED"
+        this.cardContainer.getElementsByTagName("p")[0].style.backgroundColor = "#78FEE0"
       }
     })
   }
