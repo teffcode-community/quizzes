@@ -2,23 +2,88 @@ const JAVASCRIPT = "JavaScript"
 const CSS = "CSS"
 const UI = "UI"
 
+const DEFAULT_ALT =  "Ilustración de una persona haciendo un quíz";
+
 const images = [
-  "https://i.ibb.co/GVStXgh/Men.png",
-  "https://i.ibb.co/vYCWXvz/Women.png",
-  "https://i.ibb.co/d56sY8x/Men2.png",
-  "https://i.ibb.co/0nTBTKj/Women2.png",
-  "https://i.ibb.co/NxK4140/Men3.png",
-  "https://i.ibb.co/hB7J5yc/Women3.png",
-  "https://i.ibb.co/w0PG3t3/Women4.png",
-  "https://i.ibb.co/Qdyvy9V/Women4-1.png",
-  "https://i.ibb.co/qYxvv9T/Women5.png",
-  "https://i.ibb.co/s53VC9L/Men4.png",
-  "https://i.ibb.co/JFDtLxM/Women6.png",
-  "https://i.ibb.co/7yV4hzK/Phone.png",
-  "https://i.ibb.co/qBpGRKP/Quiz1.png",
-  "https://i.ibb.co/q7Z5Qvc/CSS-1.png",
-  "https://i.ibb.co/hZCnv2S/Untitled-Artwork.png",
-  "https://i.ibb.co/87gLhc2/Guille.png"
+  {
+    src: "https://i.ibb.co/GVStXgh/Men.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  }, {
+    src:  "https://i.ibb.co/vYCWXvz/Women.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/d56sY8x/Men2.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/0nTBTKj/Women2.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/NxK4140/Men3.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src:  "https://i.ibb.co/hB7J5yc/Women3.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/w0PG3t3/Women4.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src:  "https://i.ibb.co/Qdyvy9V/Women4-1.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/qYxvv9T/Women5.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/s53VC9L/Men4.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/JFDtLxM/Women6.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/7yV4hzK/Phone.png",
+    categories: [CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/qBpGRKP/Quiz1.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/q7Z5Qvc/CSS-1.png",
+    categories: [CSS],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/hZCnv2S/Untitled-Artwork.png",
+    categories: [JAVASCRIPT],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/87gLhc2/Guille.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  }
 ]
 
 const quizzes = [
@@ -300,4 +365,10 @@ const quizzes = [
   }
 ]
 
-export { quizzes, images }
+const color = {
+  SHALIMARA: "#FDFFBC",
+  CARNATION_PINK: "#FE91CA",
+  AQUAMARINE: "#78FEE0"
+}
+
+export { quizzes, images, color }
