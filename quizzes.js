@@ -31,6 +31,20 @@ class Quizzes {
 
     return packageImages
   }
+  
+  setColorByQuizzTechnology(quizTechnology){
+    switch (quizTechnology) {
+      case this.javascript:
+        this.cardContainer.getElementsByTagName("p")[0].style.backgroundColor = color.SHALIMARA;
+        break;
+      case this.css:
+        this.cardContainer.getElementsByTagName("p")[0].style.backgroundColor = color.CARNATION_PINK;
+        break;
+      default:
+        this.cardContainer.getElementsByTagName("p")[0].style.backgroundColor = color.AQUAMARINE;
+        break;
+    }
+  }
 
   createCards() {
     quizzes.forEach(quiz => {
@@ -43,14 +57,7 @@ class Quizzes {
       this.cardContainer.appendChild(this.label.cloneNode(true)).innerHTML = quiz.technology
       this.cardContainer.appendChild(this.title.cloneNode(true)).innerHTML = quiz.name
       this.cardContainer.appendChild(this.date.cloneNode(true)).innerHTML = quiz.date
-
-      if (quiz.technology === this.javascript) {
-        this.cardContainer.getElementsByTagName("p")[0].style.backgroundColor = color.SHALIMARA
-      } else if (quiz.technology === this.css) {
-        this.cardContainer.getElementsByTagName("p")[0].style.backgroundColor = color.CARNATION_PINK
-      } else {
-        this.cardContainer.getElementsByTagName("p")[0].style.backgroundColor = color.AQUAMARINE
-      }
+      this.setColorByQuizzTechnology(quiz.technology);
     })
   }
 }
