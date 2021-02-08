@@ -4,89 +4,13 @@ const UI = "UI"
 
 const DEFAULT_ALT =  "Ilustración de una persona haciendo un quíz";
 
-const images = [
-  {
-    src: "https://i.ibb.co/GVStXgh/Men.png",
-    categories: [JAVASCRIPT, CSS, UI],
-    alt: DEFAULT_ALT
-  }, {
-    src:  "https://i.ibb.co/vYCWXvz/Women.png",
-    categories: [JAVASCRIPT, CSS, UI],
-    alt: DEFAULT_ALT
-  },
-  {
-    src: "https://i.ibb.co/d56sY8x/Men2.png",
-    categories: [JAVASCRIPT, CSS, UI],
-    alt: DEFAULT_ALT
-  },
-  {
-    src: "https://i.ibb.co/0nTBTKj/Women2.png",
-    categories: [JAVASCRIPT, CSS, UI],
-    alt: DEFAULT_ALT
-  },
-  {
-    src: "https://i.ibb.co/NxK4140/Men3.png",
-    categories: [JAVASCRIPT, CSS, UI],
-    alt: DEFAULT_ALT
-  },
-  {
-    src:  "https://i.ibb.co/hB7J5yc/Women3.png",
-    categories: [JAVASCRIPT, CSS, UI],
-    alt: DEFAULT_ALT
-  },
-  {
-    src: "https://i.ibb.co/w0PG3t3/Women4.png",
-    categories: [JAVASCRIPT, CSS, UI],
-    alt: DEFAULT_ALT
-  },
-  {
-    src:  "https://i.ibb.co/Qdyvy9V/Women4-1.png",
-    categories: [JAVASCRIPT, CSS, UI],
-    alt: DEFAULT_ALT
-  },
-  {
-    src: "https://i.ibb.co/qYxvv9T/Women5.png",
-    categories: [JAVASCRIPT, CSS, UI],
-    alt: DEFAULT_ALT
-  },
-  {
-    src: "https://i.ibb.co/s53VC9L/Men4.png",
-    categories: [JAVASCRIPT, CSS, UI],
-    alt: DEFAULT_ALT
-  },
-  {
-    src: "https://i.ibb.co/JFDtLxM/Women6.png",
-    categories: [JAVASCRIPT, CSS, UI],
-    alt: DEFAULT_ALT
-  },
-  {
-    src: "https://i.ibb.co/7yV4hzK/Phone.png",
-    categories: [CSS, UI],
-    alt: DEFAULT_ALT
-  },
-  {
-    src: "https://i.ibb.co/qBpGRKP/Quiz1.png",
-    categories: [JAVASCRIPT, CSS, UI],
-    alt: DEFAULT_ALT
-  },
-  {
-    src: "https://i.ibb.co/q7Z5Qvc/CSS-1.png",
-    categories: [CSS],
-    alt: DEFAULT_ALT
-  },
-  {
-    src: "https://i.ibb.co/hZCnv2S/Untitled-Artwork.png",
-    categories: [JAVASCRIPT],
-    alt: DEFAULT_ALT
-  },
-  {
-    src: "https://i.ibb.co/87gLhc2/Guille.png",
-    categories: [JAVASCRIPT, CSS, UI],
-    alt: DEFAULT_ALT
-  }
-]
-
 const quizzes = [
+  {
+    technology: CSS,
+    name: "background-clip",
+    date: "Feb 8, 2021.",
+    url: "https://gist.github.com/teffcode/e2afa67396a6db24627da754f212254b"
+  },
   {
     technology: JAVASCRIPT,
     name: "filter() & call() methods",
@@ -362,6 +286,88 @@ const quizzes = [
     name: "Arithmetic Operators",
     date: "May 5, 2020.",
     url: "https://gist.github.com/teffcode/6d66516ad957a8277fa4a649f874e1ea"
+  }
+]
+
+const images = [
+  {
+    src: "https://i.ibb.co/GVStXgh/Men.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  }, {
+    src:  "https://i.ibb.co/vYCWXvz/Women.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/d56sY8x/Men2.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/0nTBTKj/Women2.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/NxK4140/Men3.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src:  "https://i.ibb.co/hB7J5yc/Women3.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/w0PG3t3/Women4.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src:  "https://i.ibb.co/Qdyvy9V/Women4-1.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/qYxvv9T/Women5.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/s53VC9L/Men4.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/JFDtLxM/Women6.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/7yV4hzK/Phone.png",
+    categories: [CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/qBpGRKP/Quiz1.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/q7Z5Qvc/CSS-1.png",
+    categories: [CSS],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/hZCnv2S/Untitled-Artwork.png",
+    categories: [JAVASCRIPT],
+    alt: DEFAULT_ALT
+  },
+  {
+    src: "https://i.ibb.co/87gLhc2/Guille.png",
+    categories: [JAVASCRIPT, CSS, UI],
+    alt: DEFAULT_ALT
   }
 ]
 
