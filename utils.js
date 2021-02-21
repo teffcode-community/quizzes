@@ -6,6 +6,12 @@ const DEFAULT_ALT =  "Ilustración de una persona haciendo un quíz";
 
 const quizzes = [
   {
+    technology: JAVASCRIPT,
+    name: "sort() method",
+    date: "Feb 22, 2021.",
+    url: "https://gist.github.com/teffcode/37fc3b47aeb4862941d5bb9104e70c57"
+  },
+  {
     technology: CSS,
     name: "background-clip",
     date: "Feb 8, 2021.",
