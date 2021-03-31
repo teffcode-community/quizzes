@@ -6,6 +6,12 @@ const DEFAULT_ALT =  "Ilustración de una persona haciendo un quíz";
 
 const quizzes = [
   {
+    technology: CSS,
+    name: "Box sizing",
+    date: "Mar 31, 2021.",
+    url: "https://gist.github.com/teffcode/2f9f58c0e5875372ac505840b4efe750"
+  },
+  {
     technology: JAVASCRIPT,
     name: "map() & forEach() methods",
     date: "Mar 23, 2021.",
