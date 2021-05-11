@@ -6,6 +6,12 @@ const DEFAULT_ALT =  "Ilustración de una persona haciendo un quíz";
 
 const quizzes = [
   {
+    technology: JAVASCRIPT,
+    name: "Spread operator",
+    date: "May 10, 2021.",
+    url: "https://gist.github.com/teffcode/29ab8bdc641a70482af7ed919187be70"
+  },
+  {
     technology: CSS,
     name: "min() function",
     date: "May 3, 2021.",
