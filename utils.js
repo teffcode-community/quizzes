@@ -6,6 +6,12 @@ const DEFAULT_ALT =  "Ilustración de una persona haciendo un quíz";
 
 const quizzes = [
   {
+    technology: CSS,
+    name: "CSS Grid · Negative lines",
+    date: "Jun 2, 2021.",
+    url: "https://gist.github.com/teffcode/77e035f15e0a87e42b008ebc17b720b6"
+  },
+  {
     technology: JAVASCRIPT,
     name: "Spread operator",
     date: "May 10, 2021.",
